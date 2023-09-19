@@ -321,7 +321,7 @@
 .qrCode{
     background-image: url(/imagem/qrcode.png);
     width: 100px;
-    height: 120px;
+    height: 116px;
     position: relative;
     margin-top: -130px;
     left: 1330px;
@@ -426,4 +426,92 @@
     color: #71C27A;
     position: relative;
     left: 100px;
+}
+
+#barraVerde1{
+    width: 440px;
+    height: 4px;
+    background-color: #71C27A;
+    position: relative;
+    left: 346px;
+    margin-top: -10px;
+}
+
+#mudinha{
+    background-image: url(/imagem/mudinha.png);
+    width: 15px;
+    height: 42px;
+    position: relative;
+    left: 405px;
+    margin-top: 15px;
+}
+
+#barraVerdinha{
+    width: 440px;
+    height: 4px;
+    background-color: #71C27A;
+    position: relative;
+    left: 346px;
+    margin-bottom: -90px;
+}
+
+#cultivadas{
+    color: #71C27A;
+    position: relative;
+    margin-top: 40px;
+    left: 90px;
+}
+
+.encaixeLorem{
+    position: relative;
+    margin-top: 44px;
+    left: -55px;
+}
+
+/* texto de faturamento */
+.TextStyle{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 730;
+    position: relative;
+    left: 1090px;
+    margin-top: -71px;
+
+}
+
+#cifrao{
+    background-image: url(/imagem/cifrao.png);
+    width: 13px;
+    height: 50px;
+    position: relative;
+    left: 1425px;
+    margin-top: -240px;
+}
+
+#descontoAcumulado{
+    position: relative;
+    font-weight: 600;
+    font-size: 21px;
+    margin-top: 260px;
+    left: 453px;
+    text-align: end;
+}
+
+.valorDesconto{
+    position: relative;
+    left: 1230px;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primeiraLinha{
+    position: relative;
+    font-weight: 800;
+    font-size: 12px;
+    left: 999px;
+    margin-top: -264px;
+    
+
 }
