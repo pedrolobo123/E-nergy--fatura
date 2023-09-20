@@ -506,12 +506,98 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.primeiraLinha{
+.primeiraColuna{
     position: relative;
-    font-weight: 800;
-    font-size: 12px;
-    left: 999px;
+    font-weight: 600;
+    font-size: 14px;
+    left: 950px;
     margin-top: -264px;
-    
+    text-align: left;
+}
 
+#segundaColuna{
+    position: relative;
+    left: 1040px;
+    margin-top: -173px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#semBold{
+    font-weight: 100;
+}
+
+.fonteVermelha{
+    color: red;
+}
+
+.fonteVerde{
+    color: #71C27A;
+}
+
+#terceiraColuna{
+    position: relative;
+    left: 1180px;
+    margin-top: -29px;
+    font-weight: 600;
+    font-size: 13.2px;
+}
+
+#caixa20{
+    width: 1px;
+    height: 17px;
+    background-color: #fcc100;
+    border-radius: 20px;
+    position: relative;
+    left: 1334px;
+    margin-top: -46px;
+    z-index: 2;
+}
+
+.aFrente{
+    z-index: 20;
+    position: relative;
+    left: -5px;
+}
+
+.quartaColuna{
+    position: relative;
+    left: 680px;
+    margin-top: -100px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: end;
+}
+
+#acertoMargin{
+    font-weight: 100;
+    position: relative;
+    margin-top: 5px;
+    color: #71C27A;
+}
+
+#containerInclinado{
+    width: 1px;
+    height: 2px;
+    background-color: red;
+    transform: skewY(-20deg);
+    position: relative;
+    left: 1330px;
+    margin-top: -119px;
+}
+
+#altura237{
+    position: relative;
+    font-weight: 100;
+    margin-top: 3px;
+}
+
+.containerInclinado2{
+    width: 1px;
+    height: 2px;
+    background-color: red;
+    transform: skewY(-20deg);
+    position: relative;
+    left: 1430px;
+    margin-top: -21px;
 }
