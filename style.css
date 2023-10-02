@@ -8,7 +8,7 @@
 .caixaCentral{
     position: relative;
     margin-top: 1%;
-    left: 38%;
+    /*left: 38%;*/
     background-color: white;
     width: 1200px;
     height: 1600px;
@@ -18,7 +18,7 @@
 .caixaPreta{
     position: relative;
     margin-top: -1215px;
-    left: 40%;
+    /*left: 40%;*/
     background-color: black;
     width: 1170px;
     height: 180px;
@@ -219,7 +219,7 @@
 }
 
 #logoEnergy{
-    background-image: url(/imagem/printboa.png);
+    background-image: url(imagem/printboa.png);
     width: 200px;
     height: 120px;
     position: relative;
@@ -241,7 +241,7 @@
 
 #placaSolar{
     position: relative;
-    background-image: url(/imagem/placa3.png);
+    background-image: url(imagem/placa3.png);
     width: 50px;
     height: 90px;
     left: 920px;
@@ -310,7 +310,7 @@
     left: 1240px;
 }
 #imagemCodigo{
-    background-image: url(/imagem/codigobarras.png);
+    background-image: url(imagem/codigobarras.png);
     width: 900px;
     height: 114px;
     position: relative;
@@ -319,7 +319,7 @@
 }
 
 .qrCode{
-    background-image: url(/imagem/qrcode.png);
+    background-image: url(imagem/qrcode.png);
     width: 100px;
     height: 116px;
     position: relative;
@@ -397,7 +397,7 @@
 }
 
 #tomadaImg{
-    background-image: url(/imagem/tomada.png);
+    background-image: url(imagem/tomada.png);
     width: 25px;
     height: 55px;
     position: relative;
@@ -414,7 +414,7 @@
 }
 
 .nuvemCO2{
-    background-image: url(/imagem/nuvemc02.png);
+    background-image: url(imagem/nuvemc02.png);
     width: 15px;
     height: 50px;
     position: relative;
@@ -438,7 +438,7 @@
 }
 
 #mudinha{
-    background-image: url(/imagem/mudinha.png);
+    background-image: url(imagem/mudinha.png);
     width: 15px;
     height: 42px;
     position: relative;
@@ -480,7 +480,7 @@
 }
 
 #cifrao{
-    background-image: url(/imagem/cifrao.png);
+    background-image: url(imagem/cifrao.png);
     width: 13px;
     height: 50px;
     position: relative;
