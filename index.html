@@ -53,13 +53,16 @@
 
             <ul class="caixaInternas">
                 <p>X,XXXXX</p>
-                <ul class="tarifaImpostos">
-                    TARIFA DA CONCESSIONÁRIA COM IMPOSTOS</ul>
+                <ul id="tarifaImpostos">TARIFA</ul>
+                <ul id="tarifaImpostos1">DA CONCESSIONÁRIA</ul>
+                <ul id="tarifaImpostos2">COM IMPOSTOS</ul>
             </ul>
+
             <ul class="caixaInternas">
                 <p>R$XXX,XX</p>
-                <ul class="valorConcessionaria">
-                    VALOR QUE PAGARIA P/ A CONCESSIONÁRIA</ul>
+                <ul id="valorConcessionaria">VALOR QUE</ul>
+                <ul id="valorConcessionaria1">PAGARIA P/</ul>
+                <ul id="valorConcessionaria2">A CONCESSIONÁRIA</ul>
             </ul>
 
         </ul>
@@ -68,28 +71,34 @@
 
     <ul class="caixaAmbiente"></ul>
 
+
     <ul id="boxInterna1">
-        <ul class="carbonoEvitado"><br><br><br>CARBONO EVITADO</ul><br>
-        <ul id="cultivadas">ÁRVORES CULTIVADAS</ul>
+        <ul class="carbonoEvitado"><br><br><br>CARBONO EVITADO</ul><br><br>
+        <ul id="cultivadas">ÁRVORES CULTIVADAS</ul><br>
         <ul class="encaixeLorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus eveniet ad aperiam
             eum cum quasi architecto ullam corporis molestiae natus quo, non doloremque accusantium repellat reiciendis.
             Perspiciatis voluptatem eligendi explicabo.</ul>
     </ul>
 
     <ul class="caixaFaturamento"></ul>
+        
+    
 
     <ul id="boxInterna2"></ul>
-    
-    <ul class="boxAmarelaInterna"></ul>
+
+    <ul class="boxAmarelaInterna"><br>
+        <ul id="descontoAc">Desconto<br>acumulado</ul>
+        <ul id="descontoAc2">R$ XXX,xx</ul>
+    </ul>
 
     <ul id="dadosPagamento">
         <p>Dados para pagamento</p>
     </ul>
 
     <ul class="codigoBarras"></ul>
-    
+
     <ul id="logoEnergy"></ul>
-    
+
     <ul class="caixaTexto1"><br>
         <p>NOME: <b>NOME DO CLIENTE CONFORME CADASTRO</b></p>
         <p>CPF/CNPJ: <b>12.345.678/0001-01</b></p>
@@ -132,44 +141,16 @@
         <ul id="textoCaixa44"><br>R$ 123,45</ul>
     </ul>
 
-
-    <ul id="imagemCodigo"></ul>
-
-    <ul class="qrCode"></ul>
-
-    <ul id="siteLink">www.anergy.com.br</ul>
-
-    <ul id="tomadaImg"></ul>
-
-    <ul id="textoAmbiente">Você e o meio ambiente</ul>
-
-    <ul class="nuvemCO2"></ul>
-
-    <ul id="barraVerde1"></ul>
-
-    <ul id="mudinha"></ul>
-
-    <ul id="barraVerdinha"></ul>
-
-    <ul id="cifrao"></ul>
-
-    <ul class="TextStyle"><br>Resumo de faturamento</ul>
-
-    <ul id="descontoAcumulado">Desconto <br>acumulado</ul>
-
-    <ul class="valorDesconto">R$ 142,68</ul>
-
-
-    <ul class="primeiraColuna">
-    <ul>Descrição</ul><br>
-    <ul id="semBold">Custo disp. (kwh)  ㅤㅤㅤㅤㅤ100</ul>
-    <ul class="fonteVermelha">Consumo s/ E-nergy (kwh)   250</ul>
-    <ul>Desconto E-nergy</ul>
-    <ul class="fonteVerde">Consumo c/ E-nergyㅤㅤㅤㅤ40</ul>
-    <ul id="semBold">Outras cobranças CEMIG (R$)</ul>
-    <ul id="semBold">Total custo mês (R$)</ul>
-    <ul id="semBold">Total s/ E-nergy (R$)</ul>
-    <ul class="fonteVerde">Economia do mês</ul>
+    <ul id="primeiraColuna">
+        <ul>Descrição</ul><br>
+        <ul id="semBold">Custo disp. (kwh)  ㅤㅤㅤㅤㅤ    100</ul><br>
+        <ul class="fonteVermelha">Consumo s/ E-nergy (kwh)       250</ul><br>
+        <ul>Desconto E-nergy</ul><br>
+        <ul class="fonteVerde">Consumo c/ E-nergy (kwh)ㅤ   40</ul><br>
+        <ul id="semBold">Outras cobranças CEMIG (R$)</ul><br>
+        <ul id="semBold">Total custo mês (R$)</ul><br>
+        <ul id="semBold">Total s/ E-nergy (R$)</ul><br>
+        <ul class="fonteVerde">Economia do mês (R$)</ul>
     </ul>
 
     <ul id="segundaColuna">
@@ -178,9 +159,9 @@
 
     <ul id="terceiraColuna">
         <ul>Tarifa / Preço (R$)</ul><br>
-        <ul id="semBold">ㅤㅤㅤㅤㅤ0,95123</ul>
-        <ul id="semBold">ㅤㅤㅤㅤㅤ0,95123ㅤㅤㅤㅤㅤ </ul>
-        <ul class="aFrente">   ㅤㅤㅤㅤㅤㅤ20%</ul>
+        <ul id="semBold">ㅤㅤㅤㅤㅤ0,95123</ul><br>
+        <ul id="semBold">ㅤㅤㅤㅤㅤ0,95123ㅤㅤㅤㅤㅤ </ul><br>
+        <ul class="aFrente">   ㅤㅤㅤㅤㅤㅤ20%</ul><br>
         <ul>ㅤㅤㅤㅤㅤ0,76098</ul>
     </ul>
 
@@ -188,19 +169,42 @@
 
     <ul class="quartaColuna">
         <ul>Valor (R$)</ul><br>
-        <ul id="semBold">95,12</ul>
-        <ul id="altura237">237,81</ul>
-        <ul>ㅤ</ul>
-        <ul id="acertoMargin">190,24</ul>
-        <ul id="semBold">25,00</ul>
-        <ul id="semBold">310,36</ul>
-        <ul id="semBold">357,93</ul>
+        <ul id="semBold">95,12</ul><br>
+        <ul id="altura237">237,81</ul><br>
+        <ul>ㅤ</ul><br>
+        <ul id="acertoMargin">190,24</ul><br>
+        <ul id="semBold">25,00</ul><br>
+        <ul id="semBold">310,36</ul><br>
+        <ul id="semBold">357,93</ul><br>
         <ul class="fonteVerde">47,57</ul>
     </ul>
-    
-    <ul id="containerInclinado"></ul>
-    <ul class="containerInclinado2"></ul>
+
+    <table>
+        <ul id="containerInclinado"></ul>
+        <ul class="containerInclinado2"></ul>
+        <ul id="siteLink">www.anergy.com.br</ul>
+        <ul id="textoAmbiente">Você e o meio ambiente</ul>
+    </table>
+
+
+    <ul id="tomadaImg"></ul>
+
+    <ul class="nuvemCO2"></ul>
+
+    <ul id="barraVerde"></ul>
+
+    <ul class="mudinha"></ul>
+
+    <ul id="barraVerde2"></ul>
+
+    <ul id="textFaturamento">Resumo de faturamento</ul>
+
+    <ul class="cifraoImg"></ul>
+
+    <ul id="imagemCodigo"></ul>
+
+    <ul class="qrCode"></ul>
 
 </body>
-
+    
 </html>

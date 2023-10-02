@@ -3,24 +3,26 @@
     width: 210mm;
     height: 297mm;
     background-color: #fcc100;
+    
  }
 
 .caixaCentral{
+    margin: 0px;
     position: relative;
     margin-top: 1%;
-    /*left: 38%;*/
+    left: 38%;
     background-color: white;
-    width: 1200px;
-    height: 1600px;
+    width: 142.3%;
+    height: 148%;
     border-radius: 5%;
 }
 
 .caixaPreta{
     position: relative;
-    margin-top: -1215px;
-    /*left: 40%;*/
+    margin-top: -155%;
+    left: 1%;
     background-color: black;
-    width: 1170px;
+    width: 140%;
     height: 180px;
     border-radius: 20px;
     font-weight: bold;
@@ -32,7 +34,7 @@
 
 .caixaInterna{
     position: relative;
-    left: -38px;
+    left: -5%; 
     flex: 1;
     padding: 10px;
     background-color: white;
@@ -68,14 +70,14 @@
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left: -15px;
+    left: -15px; 
     font-size: 17px;
 }
 
 #textBlack{
     color: white;
     position: relative;
-    left: 300px;
+    left: 25%;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -84,61 +86,98 @@
 .caixaAmarela{  
     position: relative;
     background-color: #fcc100;
-    width: 1170px;
-    height: 205px;
-    left: 40%;
+    width: 140%;
+    height: 180px;
+    left: 1%;
     border-radius: 20px;
     font-size: 20px;
     margin-top: -1px;
 }
 
-.row2{
-    display: flex;
-}
-
-.caixaInternas{
-   background-color: white;
-   flex: 1;
-   padding: 10px;
-   height: 54px;
-   margin: 30px;
-   position: relative;
-   left: -38px;
-   border-radius: 20px;
-   font-weight: 500;
-   text-align: center;
-}
 
 .textYellow{
     position: relative;
     color: black;
-    left: 180px;
+    left: 180px; 
     font-size: 20px;
     font-weight: 500;
 }
+
+.caixaInternas{
+    position: relative;
+    left: -5%; 
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+    margin: 30px;
+    height: 54px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+} 
 
 .energiaCompensada{
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left: -15px;
+     left: -15px; 
     font-size: 17px;
 }
 
-.tarifaImpostos{
+#tarifaImpostos{
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left: -15px;
+    left: -65%; 
     font-size: 17px;
 }
 
-.valorConcessionaria{
+#tarifaImpostos1{
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left: -15px;
+    left: -20%; 
     font-size: 17px;
+    margin-top: -7.1%;
+     
+}
+
+#tarifaImpostos2{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 38%; 
+    font-size: 17px;
+    margin-top: -7.5%;
+     
+}
+
+#valorConcessionaria{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -45%; 
+    font-size: 17px;
+}
+
+#valorConcessionaria1{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: -8%; 
+    font-size: 17px;
+    margin-top: -7%;
+}
+
+#valorConcessionaria2{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 41%; 
+    font-size: 17px;
+    margin-top: -7%;
 }
 
 .caixaAmbiente{
@@ -146,7 +185,7 @@
     width: 500px;
     height: 389px;
     position: relative;
-    left: 317px;
+    left: 1%; 
     margin-top: 30px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -157,7 +196,7 @@
     width: 484px;
     height: 310px;
     position: relative;
-    left: 325px;
+    left: 2%; 
     margin-top: -333px; 
     border-radius: 20px;  
 }
@@ -167,7 +206,7 @@
     width: 500px;
     height: 389px;
     position: relative;
-    left: 984px;
+    left: 77.4%;
     margin-top: -397px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -178,7 +217,7 @@
     width: 484px;
     height: 310px;
     position: relative;
-    left: 993px;
+    left: 78.5%;
     margin-top: -333px; 
     border-radius: 20px;  
 }
@@ -189,16 +228,18 @@
     height: 74px;
     position: relative;
     margin-top: -98px;
-    left: 130.55%;
+    left: 83.6%; 
     border-radius: 20px;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 #dadosPagamento{
     background-color: #000;
-    width: 1200px;
+    width: 142.3%;
     height: 280px;
     position: relative;
-    left: 302px;
+    left: 0%; 
     margin-top: 30px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -210,10 +251,10 @@
 
 .codigoBarras{
     background-color: #ffffff;
-    width: 1150px;
+    width: 138%;
     height: 190px;
     margin-top: -251px;
-    left: 320px;
+    left: 2%; 
     position: relative;
     border-radius: 20px;
 }
@@ -223,8 +264,8 @@
     width: 200px;
     height: 120px;
     position: relative;
-    margin-top: -1474px;
-    left: 370px;
+    margin-top: -185%;
+    left: 10%; 
 }
 
 .caixaTexto1{
@@ -232,7 +273,7 @@
     position: relative;
     width: 465px;
     height: 200px;
-    left: 340px;
+    left: 3%; 
 }
 
 *{
@@ -244,7 +285,7 @@
     background-image: url(imagem/placa3.png);
     width: 50px;
     height: 90px;
-    left: 920px;
+    left: 75%; 
     margin-top: -340px;
 }
 
@@ -253,23 +294,23 @@
     position: relative;
     width: 350px;
     height: 200px;
-    left: 1020px;
+    left: 92%; 
     margin-top: -109px;
 }
 
 #tamanhoTexto2{
     font-size: 23px;
     position: relative;
-    left: -50px;
+    left: -50px; 
     margin-top: 20px;
 }
 
 #textosIndependentesCaixa2{
     position: relative;
-    left: -60px;
+    left: -60px; 
     font-size: 16px;
     text-align: center;
-    margin: 5px;
+    margin: 5%;
 }
 
 .caixa1{
@@ -277,19 +318,18 @@
     height: 100px;
     background-color: #ffffff;
     position: relative;
-    margin-top: -100px;
-    left: 988px;
-    
-    
+    margin-top: -12%;
+    left: 80%; 
 }
 
 #caixa2{
-    width: 140px;
+    width: 110px;
     height: 100px;
     background-color: #ffffff;
     position: relative;
-    margin-top: -116px ;
-    left: 1240px;
+    margin-top: -14.25%;
+    left: 107%; 
+    
 }
 
 .caixa3{
@@ -297,7 +337,7 @@
     height: 100px;
     background-color: #ffffff;
     position: relative;
-    left: 988px;
+    left: 79.4%; 
     margin-top: 0px;
 }
 
@@ -307,19 +347,20 @@
     background-color: #ffffff;
     position: relative;
     margin-top: -116px ;
-    left: 1240px;
+    left: 117.4%; 
 }
+
 #imagemCodigo{
-    background-image: url(imagem/codigobarras.png);
+    background-image: url(/imagem/codigobarras.png);
     width: 900px;
     height: 114px;
     position: relative;
-    margin-top: 965px;
-    left: 360px;
+    margin-top: 55%;
+    right: -8%;
 }
 
 .qrCode{
-    background-image: url(imagem/qrcode.png);
+    background-image: url(/imagem/qrcode.png);
     width: 100px;
     height: 116px;
     position: relative;
@@ -329,21 +370,21 @@
 
 #siteLink{
     position: relative;
-    left: 786px;
-    margin-top: 90px;
+    left: 426px; 
+    margin-top: 60%;
     font-size: 25px;
 }
 
 #textoCaixa1{
     position: relative;
-    left: -60px;
+    left: -60px; 
     white-space: nowrap;
     
 }
 
 #textoCaixa11{
     position: relative;
-    left: -61px;
+    left: -61px; 
     white-space: nowrap;
     font-size: 26px;
     font-weight: bold;
@@ -352,14 +393,14 @@
 
 #textoCaixa2{
     position: relative;
-    left: -90px;
+    left: 0%; 
     white-space: nowrap;
     
 }
 
 #textoCaixa22{
     position: relative;
-    left: -55px;
+    left: 35px; 
     white-space: nowrap;
     font-size: 24px;
     font-weight: bold;
@@ -368,14 +409,14 @@
 
 #textoCaixa3{
     position: relative;
-    left: -40px;
+    left: -40px; 
     white-space: nowrap;
     
 }
 
 #textoCaixa33{
     position: relative;
-    left: -47px;
+    left: -47px; 
     white-space: nowrap;
     font-size: 24px;
     font-weight: bold;
@@ -384,33 +425,33 @@
 
 #textoCaixa4{
     position: relative;
-    left: -75px;
+    left: -75px; 
     white-space: nowrap;  
 }
 
 #textoCaixa44{
     position: relative;
-    left: -57px;
+    left: -57px; 
     white-space: nowrap;
     font-size: 24px;
     font-weight: bold;
 }
 
 #tomadaImg{
-    background-image: url(imagem/tomada.png);
+    background-image: url(/imagem/tomada.png);
     width: 25px;
     height: 55px;
     position: relative;
-    margin-top: -765px;
-    left: 740px;
+    margin-top: -10%;
+    left: 420px; 
 }
 
 #textoAmbiente{
     position: relative;
-    margin-top: -50px;
-    left: 400px;
-    font-size: 20px;
-    font-weight: 800;
+    margin-top: -98.5%;
+    left: 90px; 
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .nuvemCO2{
@@ -418,14 +459,14 @@
     width: 15px;
     height: 50px;
     position: relative;
-    left: 400px;
-    margin-top: 60px;
+    left: 100px; 
+    margin-top: 6%;
 }
 
 .carbonoEvitado{
     color: #71C27A;
     position: relative;
-    left: 100px;
+     left: 100px; 
 }
 
 #barraVerde1{
@@ -438,7 +479,7 @@
 }
 
 #mudinha{
-    background-image: url(imagem/mudinha.png);
+    background-image: url(/imagem/mudinha.png);
     width: 15px;
     height: 42px;
     position: relative;
@@ -458,146 +499,140 @@
 #cultivadas{
     color: #71C27A;
     position: relative;
-    margin-top: 40px;
     left: 90px;
+    margin-top: 3%;
+}
+
+.TextStyle{
+    color: #ffffff;
+    position: relative;
+    left: 650px;
+    margin-top: -155px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#cifrao{
+    background-image: url(/imagem/cifrao.png);
+    width: 13px;
+    height: 50px;
+    position: relative;
+    left: 130%;
+    margin-top: -20.4%;
+} 
+
+#barraVerde{
+    background-color: #71C27A;
+    width: 430px;
+    height: 4px;
+    position: relative;
+    left: 6%;
+    margin-top: -2%;
+}
+
+.mudinha{
+    background-image: url(/imagem/mudinha.png);
+    position: relative;
+    width: 12px;
+    height: 43px;
+    left:  13%;
+}
+
+#barraVerde2{
+    background-color: #71C27A;
+    width: 430px;
+    height: 4px;
+    position: relative;
+    left: 6%;
+    margin-top: -1%;
 }
 
 .encaixeLorem{
     position: relative;
-    margin-top: 44px;
-    left: -55px;
+    margin-top: 5%;
+    left: -5%;
 }
 
-/* texto de faturamento */
-.TextStyle{
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 730;
-    position: relative;
-    left: 1090px;
-    margin-top: -71px;
 
-}
-
-#cifrao{
-    background-image: url(imagem/cifrao.png);
-    width: 13px;
-    height: 50px;
+#primeiraColuna{
     position: relative;
-    left: 1425px;
-    margin-top: -240px;
-}
-
-#descontoAcumulado{
-    position: relative;
-    font-weight: 600;
-    font-size: 21px;
-    margin-top: 260px;
-    left: 453px;
-    text-align: end;
-}
-
-.valorDesconto{
-    position: relative;
-    left: 1230px;
-    font-size: 24px;
-    font-weight: 800;
-    margin-top: -60px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.primeiraColuna{
-    position: relative;
-    font-weight: 600;
-    font-size: 14px;
-    left: 950px;
-    margin-top: -264px;
-    text-align: left;
+    margin-top: 69%;
+    right: -76%;
+    font-size: 10px;
+    font-weight: 700;
 }
 
 #segundaColuna{
     position: relative;
-    left: 1040px;
-    margin-top: -173px;
-    font-weight: 600;
-    font-size: 14px;
+    margin-top: -25.5%;
+    left: 86%;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+#terceiraColuna{
+    position: relative;
+    font-size: 62%;
+    font-weight: 700;
+    right: -100%;
+    margin-top: -3%;
+}
+
+.quartaColuna{
+    position: relative;
+    font-size: 62%;
+    font-weight: 700;
+    right: -34%;
+    margin-top: -15.5%;
+    text-align: end;
 }
 
 #semBold{
     font-weight: 100;
 }
 
-.fonteVermelha{
-    color: red;
+#altura237{
+    position: relative;
+    margin-top: 0.7%;
 }
 
 .fonteVerde{
     color: #71C27A;
 }
 
-#terceiraColuna{
-    position: relative;
-    left: 1180px;
-    margin-top: -29px;
-    font-weight: 600;
-    font-size: 13.2px;
+.fonteVermelha{
+    color: red;
 }
 
-#caixa20{
-    width: 1px;
-    height: 17px;
-    background-color: #fcc100;
-    border-radius: 20px;
+#descontoAc{
     position: relative;
-    left: 1334px;
-    margin-top: -46px;
-    z-index: 2;
-}
-
-.aFrente{
-    z-index: 20;
-    position: relative;
-    left: -5px;
-}
-
-.quartaColuna{
-    position: relative;
-    left: 680px;
-    margin-top: -100px;
-    font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
+    left: -65%;
+    margin-top: -3%;
     text-align: end;
 }
 
-#acertoMargin{
-    font-weight: 100;
+#descontoAc2{
     position: relative;
-    margin-top: 5px;
-    color: #71C27A;
+    font-weight: 700;
+    left: 35%;
+    margin-top: -9%;
+    font-size: 26px;
 }
 
-#containerInclinado{
-    width: 1px;
-    height: 2px;
-    background-color: red;
-    transform: skewY(-20deg);
+#textFaturamento{
+    color: #ffffff;
+    font-size: 22px;
     position: relative;
-    left: 1330px;
-    margin-top: -119px;
+    right: -90%;
+    margin-top: -27%;
 }
 
-#altura237{
+.cifraoImg{
+    background-image: url(/imagem/cifrao.png);
+    width: 17px;
+    height: 52px;
     position: relative;
-    font-weight: 100;
-    margin-top: 3px;
-}
-
-.containerInclinado2{
-    width: 1px;
-    height: 2px;
-    background-color: red;
-    transform: skewY(-20deg);
-    position: relative;
-    left: 1430px;
-    margin-top: -21px;
+    right: -130%;
+    margin-top: -9%;
 }
